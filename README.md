@@ -1,4 +1,4 @@
-# NilChain Add Button for Keplr Wallet
+# Add NilChain Button to Keplr Wallet
 
 ## Overview
 
@@ -44,6 +44,18 @@ To use this component into your project, please follow these step:
     >
 
     </AddNillionNetworkButton>
+    ```
+
+4. **Refer Props**:
+
+    ```bash
+    type AddToChainButtonProps = {
+        addChainSuccess: (message: string) => void;
+        addChainFail: (error: string) => void;
+        style?: React.CSSProperties;
+        className?: string;
+        buttonTitle?: string;
+    };
     ```
     
 
