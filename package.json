@@ -1,7 +1,7 @@
 {
-  "name": "nillion-add-chain-to-keplr-wallet-button",
-  "version": "0.1.0",
-  "private": true,
+  "name": "add-nilchain-to-keplr-button",
+  "version": "0.2.0",
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
