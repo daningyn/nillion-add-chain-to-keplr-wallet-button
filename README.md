@@ -28,7 +28,8 @@ To use this component into your project, please follow these step:
 2. **Import**
 
     ```bash
-    import AddNillionNetworkButton from 'add-nilchain-to-keplr-button';
+    import { AddNillionNetworkButton } from 'add-nilchain-to-keplr-button';
+    import 'add-nilchain-to-keplr-button/dist/styles.css';
     ```
 
 3. **Usage**
@@ -59,10 +60,10 @@ To run this example, follow these steps:
     cd nillion-add-chain-to-keplr-wallet-button
     ```
 
-2. **Install dependencies"**
+2. **Install dependencies**
 
     ```bash
-    npm i
+    npm install
     ```
 
 3. **Run the example:**

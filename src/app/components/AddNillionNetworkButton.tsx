@@ -1,5 +1,5 @@
 'use client';
-import { config } from '@/app/common/config';
+import { config } from '../common/config';
 
 
 declare global {
