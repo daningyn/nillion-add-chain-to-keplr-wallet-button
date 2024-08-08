@@ -26,8 +26,6 @@ const AddNillionNetworkButton: React.FC<AddToChainButtonProps> = (
             return;
         }
 
-        const chainId = config.chainId;
-
         try {
             await window.keplr.experimentalSuggestChain(config);
             addChainSuccess("Chain added successfully! Please enable Nillion in Chain Visibility tab");
