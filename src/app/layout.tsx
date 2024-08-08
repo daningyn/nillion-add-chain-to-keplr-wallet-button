@@ -3,12 +3,13 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Add Nillion Network to Keplr example",
-  description: "Add Nillion Network to Keplr example",
+  title: "Add NilChain to Keplr example",
+  description: "Add NilChain to Keplr example",
 };
 
 export default function RootLayout({
@@ -18,6 +19,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Head>
+        <link rel="icon" href="https://nillion.com/wp-content/themes/nillion/assets/images/favicon.png" />
+      </Head>
       <body className={inter.className}>
           <ToastContainer
             position='top-right'
