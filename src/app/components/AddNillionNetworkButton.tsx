@@ -37,7 +37,7 @@ const AddNillionNetworkButton: React.FC<AddToChainButtonProps> = (
 
     return (
         <button className={`flex flex-col justify-center items-center py-4 px-8 bg-[#0021f5] hover:bg-[#165bfa] active:bg-[#0021f5] text-white font-bold rounded-xl cursor-pointer ${className}`} style={style} onClick={handleAddChain}>
-            {buttonTitle ? buttonTitle : 'Add Nillion Network to Keplr'}
+            {buttonTitle ? buttonTitle : 'Add NilChain to Keplr'}
         </button>
     );
 };
