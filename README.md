@@ -29,7 +29,7 @@ To use this component into your project, please follow these step:
 
 2. **Import**
 
-    ```bash
+    ```
     import { AddNillionNetworkButton } from 'add-nilchain-to-keplr-button';
     import 'add-nilchain-to-keplr-button/dist/styles.css';
     ```
