@@ -1,6 +1,6 @@
 {
   "name": "add-nilchain-to-keplr-button",
-  "version": "1.1.1",
+  "version": "1.1.7",
   "private": false,
   "scripts": {
     "dev": "next dev",
@@ -33,5 +33,6 @@
   "website": "https://github.com/daningyn/nillion-add-chain-to-keplr-wallet-button.git",
   "bugs": {
     "url": "https://github.com/daningyn/nillion-add-chain-to-keplr-wallet-button/issues"
-  }
+  },
+  "homepage": "https://github.com/daningyn/nillion-add-chain-to-keplr-wallet-button#readme"
 }
