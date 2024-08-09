@@ -6,7 +6,9 @@ This project provides a Next component that allows users to add a NilChain to th
 
 ## Example Live:
 
-You can check out the live example at: https://add-nilchain-example.daningyn.xyz/
+You can check out the live example at: [Live example](https://add-nilchain-example.daningyn.xyz/)
+
+The library is on NPM: [NPM package](https://www.npmjs.com/package/add-nilchain-to-keplr-button)
 
 ## Features
 
