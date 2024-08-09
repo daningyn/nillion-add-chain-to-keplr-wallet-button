@@ -1,7 +1,6 @@
 {
   "name": "add-nilchain-to-keplr-button",
   "version": "1.2.1",
-  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -39,6 +38,7 @@
     "dist",
     "index.ts",
     "src/app/components",
-    "src/app/common"
+    "src/app/common",
+    "README.md"
   ]
 }
